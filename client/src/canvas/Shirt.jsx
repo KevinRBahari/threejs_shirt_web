@@ -6,6 +6,7 @@ import { Decal, useGLTF, useTexture } from '@react-three/drei'
 
 import state from '../store';
 
+// changes
 //const color = state.color;
 
 const Shirt = () => {
