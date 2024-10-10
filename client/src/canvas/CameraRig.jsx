@@ -1,3 +1,4 @@
+// importing dependencies
 import React, { useRef } from 'react'
 import { useFrame } from '@react-three/fiber'
 import { easing } from 'maath'
@@ -37,7 +38,7 @@ const CameraRig = ({children}) => {
   })
 
 
-
+// return the group with children paranthesis
   return (
     <group ref={group}>{children}</group>
   )
